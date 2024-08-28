@@ -1,0 +1,15 @@
+services:
+  launcher:
+    build:
+      context: .
+      network: host
+    environment:
+      - PORT=1337
+      - HTTP_PORT=8545
+      - ETH_RPC_URL=https://eth.llamarpc.com
+      - FLAG=SEKAI{(*V*)/E_1t5_n4t1v3_70k3n5!!!}
+      - PUBLIC_IP=survive.chals.sekai.team
+      - SHARED_SECRET=I_w15s_N4t1ve_7ok3n55555_><
+    ports:
+      - "1337:1337"
+      - "8545:8545"

@@ -1,0 +1,16 @@
+service chal
+{
+    disable = no
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = sage
+    type        = UNLISTED
+    port        = 9999
+    bind        = 0.0.0.0
+    server      = /bin/sh
+    server_args = /app/start.sh
+    banner_fail = /etc/banner_fail
+    per_source  = 10
+    rlimit_cpu  = UNLIMITED
+}

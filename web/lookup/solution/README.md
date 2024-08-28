@@ -1,0 +1,4 @@
+### Writeup
+- parser differential through `new URI("//_/lookup").getPath() == "/lookup"` (https://github.com/openjdk/jdk17/blob/master/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java#L581)
+- gadget in https://github.com/apache/commons-scxml/blob/88ca43e2c46161c529af28adcb1de5775f9a56ae/src/main/java/org/apache/commons/scxml2/env/groovy/GroovyExtendableScriptCache.java#L305 with the sink `groovy.lang.GroovyClassLoader.parseClass()`
+- then make use of lower jdk version allowing deser by default through ldap for example (https://github.com/openjdk/jdk17/blob/master/src/java.naming/share/classes/com/sun/jndi/ldap/VersionHelper.java#L62)

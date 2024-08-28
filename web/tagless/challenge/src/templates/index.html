@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tagless</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/nes.css@2.3.0/css/nes.css" />
+    <style>
+        
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #212529;
+            color: #fff;
+            font-family: 'Press Start 2P', cursive;
+        }
+        .container {
+            text-align: center;
+        }
+        .nes-field, .nes-btn {
+            margin-top: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 20px;
+            color: #212529;
+            background-color: #FFF; 
+            font-family: 'Press Start 2P', cursive;
+        }
+        .nes-container.is-dark.with-title {
+            background-color: #212529; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <section class="nes-container with-title is-centered is-dark">
+        <h2 class="title">Tagless Display</h2>
+        <div class="nes-field is-inline">
+            <label for="userInput" class="nes-text is-primary">Your Message:</label>
+            <input type="text" id="userInput" class="nes-input" placeholder="Hello, Retro World!">
+        </div>
+        <button id="displayButton" type="button" class="nes-btn is-primary">Display</button>
+        <div class="output">
+            <iframe id="displayFrame"></iframe>
+        </div>
+    </section>
+</div>
+
+<script src="/static/app.js"></script>
+
+
+</body>
+</html>

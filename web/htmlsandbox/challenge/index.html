@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Sandbox</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <h1>HTML Sandbox</h1>
+      <span>You can create and test your HTML files here! The only caveat is that it must have a secure CSP.</span>
+      <form method="POST" enctype="application/x-www-form-urlencoded" action="/upload">
+        <textarea name="html" rows="12"></textarea>
+        <input type="submit" value="Upload" />
+      </form>
+    </main>
+    <script>
+      const placeholder = `
+      <html>
+        <head>
+            <meta http-equiv="Content-Security-Policy" content="default-src 'none'">
+            <!-- DO NOT REMOVE! You must have this CSP. -->
+        </head>
+        <body>
+            <h1>Hello World</h1>
+            <p>This is a sample HTML file</p>
+        </body>
+      </html>`;
+      document.querySelector('textarea').value = placeholder;
+    </script>
+  </body>
+</html>

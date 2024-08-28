@@ -1,0 +1,14 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sol-ctf-framework = { git = "https://github.com/otter-sec/sol-ctf-framework", branch="rewrite-v2" }
+solana-program-test = "1.18.22"
+solana-program = "1.18.22"
+solana-sdk = "1.18.22"
+solana-banks-interface = "1.18.22"
+threadpool = "1.8.1"
+tarpc = "0.29.0"
+base64 = "0.22.1"

@@ -1,0 +1,8 @@
+services:
+  chall:
+    build: .
+    ports:
+      - 5003:5000
+    restart: always
+    platform: linux/amd64
+    privileged: true

@@ -1,0 +1,27 @@
+services:
+  app:
+    image: intruder
+    container_name: intruder
+    build: .
+    networks:
+      - no_internet
+  proxy:
+    image: nginx:latest
+    container_name: intruder-proxy
+    ports:
+      - 8080:8080
+    volumes:
+      - ./proxy.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - no_internet
+      - external_access
+    depends_on:
+      - app      
+
+networks:
+  no_internet:
+    driver: bridge
+    internal: true
+
+  external_access:
+    driver: bridge      

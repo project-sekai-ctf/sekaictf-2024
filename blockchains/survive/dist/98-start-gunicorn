@@ -1,0 +1,17 @@
+#!/bin/bash
+
+PYTHONUNBUFFERED=true gunicorn \
+    --user ctf \
+    --group ctf \
+    --bind 0.0.0.0:$HTTP_PORT \
+    --daemon \
+    --access-logfile /var/log/ctf/gunicorn.access.log \
+    --error-logfile /var/log/ctf/gunicorn.error.log \
+    --workers 16 \
+    --threads 32 \
+    --capture-output \
+    --log-level debug \
+    --chdir /home/ctf \
+    eth_sandbox.server:app
+    
+socat TCP-LISTEN:$PORT,reuseaddr,fork EXEC:"/usr/local/bin/python3 -u /home/ctf/chal.py"

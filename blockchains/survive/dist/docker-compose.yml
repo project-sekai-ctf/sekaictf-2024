@@ -1,0 +1,12 @@
+services:
+  launcher:
+    build:
+      context: .
+      network: host
+    environment:
+      - PORT=1337
+      - HTTP_PORT=8545
+      - ETH_RPC_URL=https://eth.llamarpc.com
+    ports:
+      - "1337:1337"
+      - "8545:8545"

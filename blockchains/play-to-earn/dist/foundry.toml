@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+evm-version = "cancun"
+remappings = [
+    '@openzeppelin/=lib/openzeppelin-contracts/',
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

@@ -1,0 +1,17 @@
+{
+  "name": "uploader3",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "arxenix",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^23.1.0",
+    "redis": "^4.7.0"
+  }
+}

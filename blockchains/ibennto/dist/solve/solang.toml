@@ -1,0 +1,8 @@
+# solang version v0.3.3
+
+[package]
+input_files = ["Solve.sol"]
+contracts = ["Solve"]
+
+[target]
+name = "solana"
