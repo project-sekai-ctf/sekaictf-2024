@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SekaiCTF - Secure Computing Downloads</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        .modal-header:before,
+        .modal-header:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 7px;
+            height: 7px;
+            border: 5px solid #74FADD;
+            box-sizing: content-box;
+            border-radius: 3px;
+            transform: translateY(-50%) rotate(45deg);
+        }
+
+        .modal-header:before {
+            left: 1.25rem
+        }
+
+        .modal-header:after {
+            right: 1.25rem
+        }
+
+        html {
+            --icon-wall: url("https://files.catbox.moe/6ti1xo.svg");
+            --triangular-bg: url("https://2024.ctf.sekai.team/themes/luna-vite/static/img/triangular-bg.svg");
+            --halftone-tail: url("https://2024.ctf.sekai.team/themes/luna-vite/static/img/halftone-tail.svg");
+            --stripe-border: url("https://2024.ctf.sekai.team/themes/luna-vite/static/img/stripe-border.svg");
+            --background-gradient: linear-gradient(to bottom, #dddddd, #C6FDF1);
+        }
+
+        body {
+            background-image: var(--triangular-bg), var(--background-gradient);
+            background-size: 3.5rem, auto;
+        }
+
+        #icon-wall-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .button textButton small {
+            background-color: #5cc9bb;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            font-weight: 600;
+            transition: brightness 0.2s;
+        }
+
+        .download-button:hover {
+            filter: brightness(90%);
+        }
+
+        .button {
+            background-color: #fff;
+            border: 5px solid #e1e1e1;
+            border-radius: 10px;
+            box-shadow: 0 0 0 3px #555573, 0 3px 0 3px #555573;
+            font-weight: 550;
+            font-family: InterVar, Inter var, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            padding: 0;
+            text-decoration: none;
+            color: #454367;
+            cursor: default
+        }
+
+        .button:disabled {
+            filter: brightness(.5)
+        }
+
+        .button:hover:not(:disabled) {
+            border-color: #5cc9bb;
+            box-shadow: 0 0 0 3px #555573
+        }
+
+        .button:active:not(:disabled) {
+            transform: scale(.9)
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col items-center justify-center font-sans relative box-border p-4">
+    <canvas id="icon-wall-canvas"></canvas>
+    <div class="bg-white flex flex-col rounded-md max-w-4xl relative z-10 w-full">
+        <h1
+            class="modal-header relative bg-[#5cc9bb] text-white px-16 py-4 text-center rounded-t-md font-semibold text-2xl">
+            Secure Computing - Downloads
+        </h1>
+        <div class="p-6 text-center w-full text-gray-700">
+            <p class="mb-4">
+                The Secure Computing challenge for SekaiCTF 2024 has different distributables for different versions of
+                Windows. Please use this website to download the correct version for your system. You can find your
+                Windows version through Win+R and typing "winver".
+            </p>
+            <p class="mb-4">
+                Please note that this challenge requires a modern version of Windows, and <b>will not work on Wine</b>.
+                If you are using a Linux or macOS system, please use a Windows virtual machine. You can find
+                preinstalled modern Windows VMs on
+                <a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/"
+                    class="text-[#5cc9bb] brightness-90 hover:brightness-75 underline">Microsoft's website</a>.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 mt-8">
+                <div class="flex flex-col gap-1 w-full md:w-1/3">
+                    <h2 class="text-xl font-semibold mb-2">Windows 10</h2>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-19041.zip"
+                        download="secure-computing.zip" class="button textButton small mb-2">Windows 10 2004 (build
+                        19041)</a>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-19041.zip"
+                        download="secure-computing.zip" class="button textButton small mb-2">Windows 10 20H2 (build
+                        19042)</a>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-19041.zip"
+                        download="secure-computing.zip" class="button textButton small mb-2">Windows 10 21H1 (build
+                        19043)</a>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-19041.zip"
+                        download="secure-computing.zip" class="button textButton small mb-2">Windows 10 21H2 (build
+                        19044)</a>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-19045.zip"
+                        download="secure-computing.zip" class="button textButton small block">Windows 10 22H2 (build
+                        19045)</a>
+                </div>
+                <div class="flex flex-col gap-1 w-full md:w-1/3">
+                    <h2 class="text-xl font-semibold mb-2">Windows Server 2022</h2>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-20348.zip"
+                        download="secure-computing.zip" class="button textButton small block">Windows Server 2022 21H2
+                        (build
+                        20348)</a>
+                </div>
+                <div class="flex flex-col gap-1 w-full md:w-1/3">
+                    <h2 class="text-xl font-semibold mb-2">Windows 11</h2>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-22000.zip"
+                        download="secure-computing.zip" class="button textButton small mb-2">Windows 11 21H2 (build
+                        22000)</a>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-22621.zip"
+                        download="secure-computing.zip" class="button textButton small mb-2">Windows 11 22H2 (build
+                        22621)</a>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-22621.zip"
+                        download="secure-computing.zip" class="button textButton small mb-2">Windows 11 23H2 (build
+                        22631)</a>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-26120.zip"
+                        download="secure-computing.zip" class="button textButton small mb-2">Windows 11 24H2 (build
+                        26120)</a>
+                    <a href="https://2024.ctf.sekai.team/files/7f0170c9b7ef4562e7c4bac3cf76a18b/dist-26120.zip"
+                        download="secure-computing.zip" class="button textButton small block">Windows 11 Insider Preview
+                        Build
+                        27686</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const BackgroundCanvasResources = {
+            canvas: null,
+            iconWallCanvas: null,
+            offscreenCanvas: null
+        };
+
+        const rad50 = 0.872665;
+        const rad40 = Math.PI / 2 - rad50;
+        const scale = 0.5;
+
+        function buildIconWallData(w, h, iconWall) {
+            const offscreenCanvas = document.createElement("canvas");
+            const offscreenCtx = offscreenCanvas.getContext("2d");
+
+            const a1 = w * Math.cos(rad40),
+                a2 = h * Math.cos(rad50),
+                b1 = h * Math.cos(rad40),
+                b2 = w * Math.cos(rad50);
+
+            const width = (b1 + b2) / scale;
+            const height = (a1 + a2 + 580) / scale;
+
+            offscreenCanvas.width = width;
+            offscreenCanvas.height = height;
+
+            const pattern = offscreenCtx.createPattern(iconWall, "repeat");
+            offscreenCtx.fillStyle = pattern;
+            offscreenCtx.fillRect(0, 0, width, height);
+            BackgroundCanvasResources.offscreenCanvas = offscreenCanvas;
+        }
+
+        function drawPatternScale(ctx, offscreenCanvas, startx, starty, width, height) {
+            ctx.save();
+            ctx.scale(scale, scale);
+            ctx.drawImage(offscreenCanvas, startx / scale, starty / scale, width / scale, height / scale);
+            ctx.restore();
+        }
+
+        function render(timer) {
+            timer = (timer / 30) % 580;
+            const { canvas, offscreenCanvas } = BackgroundCanvasResources;
+            if (canvas && offscreenCanvas) {
+                const ctx = canvas.getContext("2d");
+                ctx.save();
+                const w = canvas.width,
+                    h = canvas.height;
+                ctx.clearRect(0, 0, w, h);
+                ctx.save();
+                ctx.rotate(rad50);
+                const a1 = w * Math.cos(rad40),
+                    a2 = h * Math.cos(rad50),
+                    b1 = h * Math.cos(rad40),
+                    b2 = w * Math.cos(rad50);
+                ctx.translate(0, -timer);
+                drawPatternScale(ctx, offscreenCanvas, 0, -a1, b1 + b2, a1 + a2 + 580);
+                ctx.restore();
+            }
+        }
+
+        function frame(timer) {
+            render(timer);
+            return window.requestAnimationFrame(frame);
+        }
+
+        function IconWallCanvasInit() {
+            var canvas = document.getElementById("icon-wall-canvas");
+            if (!canvas) {
+                console.error("Canvas element not found");
+                return;
+            }
+
+            const iconWall = new Image();
+            iconWall.crossOrigin = "anonymous";
+            iconWall.onload = () => {
+                buildIconWallData(canvas.width, canvas.height, iconWall);
+            };
+            iconWall.src = /(?:")(.+)(?=")/g.exec(getComputedStyle(document.documentElement).getPropertyValue("--icon-wall"))[1];
+
+            BackgroundCanvasResources.canvas = canvas;
+
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            window.addEventListener("resize", () => {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                buildIconWallData(canvas.width, canvas.height, iconWall);
+            });
+
+            window.requestAnimationFrame(frame);
+        }
+
+        window.addEventListener('load', IconWallCanvasInit);
+    </script>
+</body>
+
+</html>
