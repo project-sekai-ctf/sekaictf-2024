@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "TRX", "id": 709}, "challenge_id": 5, "challenge": {"name": "X64 Extension", "value": 100, "id": 5, "category": "Reverse"}, "date": "2024-08-25T11:10:13.050041+00:00", "id": 4202, "user": {"name": "zBION1C", "id": 1733}, "type": "correct"}], "meta": {"count": 1}}

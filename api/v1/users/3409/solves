@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "IITBreachers", "id": 1566}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-24T05:24:01.700772+00:00", "id": 2403, "user": {"name": "sethigeet", "id": 3409}, "type": "correct"}], "meta": {"count": 1}}

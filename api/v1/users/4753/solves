@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Porg Pwn Platoon", "id": 1967}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-24T19:10:29.504357+00:00", "id": 3467, "user": {"name": "MrJ", "id": 4753}, "type": "correct"}], "meta": {"count": 1}}

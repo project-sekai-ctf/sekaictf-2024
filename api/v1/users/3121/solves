@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "ECSC Estonia", "id": 478}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-23T17:52:09.058625+00:00", "id": 1229, "user": {"name": "akz", "id": 3121}, "type": "correct"}], "meta": {"count": 1}}

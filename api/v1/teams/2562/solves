@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "CSEC 2", "id": 2562}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-25T11:47:53.733662+00:00", "id": 4245, "user": {"name": "Kronos", "id": 3920}, "type": "correct"}], "meta": {"count": 1}}

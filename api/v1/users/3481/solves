@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "ret2rev", "id": 842}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T17:37:17.934208+00:00", "id": 3371, "user": {"name": "Marfung37", "id": 3481}, "type": "correct"}], "meta": {"count": 1}}

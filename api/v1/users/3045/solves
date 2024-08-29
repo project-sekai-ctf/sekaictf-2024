@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Team Kirby", "id": 598}, "challenge_id": 15, "challenge": {"name": "nolibc", "value": 112, "id": 15, "category": "Pwn"}, "date": "2024-08-25T14:52:39.251308+00:00", "id": 4446, "user": {"name": "hc", "id": 3045}, "type": "correct"}], "meta": {"count": 1}}

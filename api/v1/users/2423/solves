@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Fuchsia Ferret", "id": 61}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:26:02.774468+00:00", "id": 597, "user": {"name": "antimalterie", "id": 2423}, "type": "correct"}], "meta": {"count": 1}}

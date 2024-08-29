@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "CTF Goats", "id": 1827}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T20:34:44.645367+00:00", "id": 1658, "user": {"name": "AF", "id": 3676}, "type": "correct"}], "meta": {"count": 1}}

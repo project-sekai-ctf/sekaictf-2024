@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "full_weak_engineer", "id": 1139}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T15:56:11.598026+00:00", "id": 3275, "user": {"name": "asusn", "id": 2059}, "type": "correct"}], "meta": {"count": 1}}

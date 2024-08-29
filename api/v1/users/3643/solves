@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "TeamSerbia", "id": 553}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-23T22:09:05.987760+00:00", "id": 1793, "user": {"name": "tamp", "id": 3643}, "type": "correct"}], "meta": {"count": 1}}

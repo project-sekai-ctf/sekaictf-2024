@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "OctalO", "id": 1229}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-23T17:11:54.788397+00:00", "id": 1027, "user": {"name": "infernosalex", "id": 2756}, "type": "correct"}], "meta": {"count": 1}}

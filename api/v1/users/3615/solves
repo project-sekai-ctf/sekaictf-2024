@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "BelRedDaemons", "id": 324}, "challenge_id": 10, "challenge": {"name": "\u30de\u30b9\u30bf\u30fc\u30b9\u30d1\u30fc\u30af", "value": 250, "id": 10, "category": "Cryptography"}, "date": "2024-08-24T17:33:38.498309+00:00", "id": 3364, "user": {"name": "Redender64", "id": 3615}, "type": "correct"}], "meta": {"count": 1}}

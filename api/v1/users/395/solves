@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "ICAI Cyber Team", "id": 256}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:03:31.527682+00:00", "id": 25, "user": {"name": "pr1alg0n", "id": 395}, "type": "correct"}], "meta": {"count": 1}}

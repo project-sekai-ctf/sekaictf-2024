@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "CPCSEC", "id": 1705}, "challenge_id": 27, "challenge": {"name": "Miku vs. Machine", "value": 100, "id": 27, "category": "PPC"}, "date": "2024-08-23T17:55:08.306815+00:00", "id": 1244, "user": {"name": "Ench Lolz", "id": 3377}, "type": "correct"}], "meta": {"count": 1}}

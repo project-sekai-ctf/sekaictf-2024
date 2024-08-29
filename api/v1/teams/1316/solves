@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Wacon 2024", "id": 1316}, "challenge_id": 23, "challenge": {"name": "Tagless", "value": 100, "id": 23, "category": "Web"}, "date": "2024-08-23T16:28:42.133238+00:00", "id": 631, "user": {"name": "groothaha", "id": 2387}, "type": "correct"}], "meta": {"count": 1}}

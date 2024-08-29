@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "sesac1", "id": 1004}, "challenge_id": 27, "challenge": {"name": "Miku vs. Machine", "value": 100, "id": 27, "category": "PPC"}, "date": "2024-08-24T07:11:17.074173+00:00", "id": 2549, "user": {"name": "gentoo", "id": 1784}, "type": "correct"}], "meta": {"count": 1}}

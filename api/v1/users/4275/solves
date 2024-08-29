@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "FluxFingers", "id": 1400}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T13:45:53.348124+00:00", "id": 3064, "user": {"name": "emxll", "id": 4275}, "type": "correct"}], "meta": {"count": 1}}

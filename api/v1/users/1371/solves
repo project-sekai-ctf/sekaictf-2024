@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "SPAIN-ECSC-2024", "id": 774}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-23T17:31:30.474880+00:00", "id": 1145, "user": {"name": "inkripted", "id": 1371}, "type": "correct"}], "meta": {"count": 1}}

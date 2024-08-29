@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "SU", "id": 777}, "challenge_id": 23, "challenge": {"name": "Tagless", "value": 100, "id": 23, "category": "Web"}, "date": "2024-08-24T16:59:51.842930+00:00", "id": 3335, "user": {"name": "scr1pt-kddi3", "id": 3195}, "type": "correct"}], "meta": {"count": 1}}

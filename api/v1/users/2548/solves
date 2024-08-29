@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Black Bauhinia", "id": 1389}, "challenge_id": 5, "challenge": {"name": "X64 Extension", "value": 100, "id": 5, "category": "Reverse"}, "date": "2024-08-25T06:01:20.208357+00:00", "id": 3826, "user": {"name": "harrier", "id": 2548}, "type": "correct"}], "meta": {"count": 1}}

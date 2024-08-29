@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "HUIT", "id": 337}, "challenge_id": 27, "challenge": {"name": "Miku vs. Machine", "value": 100, "id": 27, "category": "PPC"}, "date": "2024-08-24T15:16:52.044536+00:00", "id": 3223, "user": {"name": "Today03", "id": 1672}, "type": "correct"}], "meta": {"count": 1}}

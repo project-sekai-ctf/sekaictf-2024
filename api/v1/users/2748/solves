@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "The Hacktivists", "id": 911}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T19:44:04.637224+00:00", "id": 1566, "user": {"name": "intricate", "id": 2748}, "type": "correct"}], "meta": {"count": 1}}

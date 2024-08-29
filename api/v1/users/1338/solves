@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "SU", "id": 777}, "challenge_id": 36, "challenge": {"name": "\u25bb Survey", "value": 39, "id": 36, "category": "Misc"}, "date": "2024-08-25T05:17:00.700699+00:00", "id": 3781, "user": {"name": "pho3n1x", "id": 1338}, "type": "correct"}], "meta": {"count": 1}}

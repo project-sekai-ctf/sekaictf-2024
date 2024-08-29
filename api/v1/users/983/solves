@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "konohagakure", "id": 296}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-23T21:23:45.508599+00:00", "id": 1750, "user": {"name": "Sir_X", "id": 983}, "type": "correct"}], "meta": {"count": 1}}

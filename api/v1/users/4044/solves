@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "rpwn", "id": 428}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-24T09:40:10.874345+00:00", "id": 2791, "user": {"name": "ct", "id": 4044}, "type": "correct"}], "meta": {"count": 1}}

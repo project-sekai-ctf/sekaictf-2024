@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Qsec", "id": 1290}, "challenge_id": 15, "challenge": {"name": "nolibc", "value": 112, "id": 15, "category": "Pwn"}, "date": "2024-08-25T01:16:08.916216+00:00", "id": 3620, "user": {"name": "Philipp0x90", "id": 2333}, "type": "correct"}], "meta": {"count": 1}}

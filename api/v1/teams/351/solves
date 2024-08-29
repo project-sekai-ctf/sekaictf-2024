@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Packet Pirates", "id": 351}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:47:00.504295+00:00", "id": 832, "user": {"name": "wolverine5", "id": 3046}, "type": "correct"}], "meta": {"count": 1}}

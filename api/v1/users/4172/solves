@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Petir Cyber Security", "id": 1172}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-24T17:08:41.896348+00:00", "id": 3349, "user": {"name": "BlackBear", "id": 4172}, "type": "correct"}], "meta": {"count": 1}}

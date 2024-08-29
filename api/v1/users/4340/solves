@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Goodwill Mischief", "id": 980}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T11:18:04.206661+00:00", "id": 2893, "user": {"name": "zblxst", "id": 4340}, "type": "correct"}], "meta": {"count": 1}}

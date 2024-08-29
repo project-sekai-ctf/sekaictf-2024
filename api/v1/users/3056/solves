@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Cr\u00e9meTartin\u00e9Fabuleuse", "id": 1579}, "challenge_id": 9, "challenge": {"name": "speedpwn", "value": 227, "id": 9, "category": "Pwn"}, "date": "2024-08-25T01:16:12.440520+00:00", "id": 3621, "user": {"name": "buddurid", "id": 3056}, "type": "correct"}], "meta": {"count": 1}}

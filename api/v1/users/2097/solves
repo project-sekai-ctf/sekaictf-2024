@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "ctf999", "id": 1168}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T17:07:01.249135+00:00", "id": 996, "user": {"name": "googlebot", "id": 2097}, "type": "correct"}], "meta": {"count": 1}}

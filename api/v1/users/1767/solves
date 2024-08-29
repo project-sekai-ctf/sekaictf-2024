@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "734m_N4M3_h3r3", "id": 992}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T16:53:18.108566+00:00", "id": 3331, "user": {"name": "viecon", "id": 1767}, "type": "correct"}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "zip.sh", "id": 13}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:07:15.343440+00:00", "id": 102, "user": {"name": "Zero", "id": 205}, "type": "correct"}], "meta": {"count": 1}}

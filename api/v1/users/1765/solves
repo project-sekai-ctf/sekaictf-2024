@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Phish Paprikas", "id": 989}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-25T09:35:28.437401+00:00", "id": 4122, "user": {"name": "mj", "id": 1765}, "type": "correct"}], "meta": {"count": 1}}

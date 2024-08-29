@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "traP", "id": 7}, "challenge_id": 18, "challenge": {"name": "calcql", "value": 201, "id": 18, "category": "Misc"}, "date": "2024-08-24T17:02:14.049006+00:00", "id": 3338, "user": {"name": "kaitoyama", "id": 3051}, "type": "correct"}], "meta": {"count": 1}}

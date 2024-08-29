@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "AKASEC", "id": 1618}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-24T08:57:39.563257+00:00", "id": 2728, "user": {"name": "pengu", "id": 2499}, "type": "correct"}], "meta": {"count": 1}}

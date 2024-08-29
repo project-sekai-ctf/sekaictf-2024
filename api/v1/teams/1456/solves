@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "skybridge", "id": 1456}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-24T01:18:09.014793+00:00", "id": 2031, "user": {"name": "skybridge", "id": 2713}, "type": "correct"}], "meta": {"count": 1}}

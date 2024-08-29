@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "White Hat IT Security", "id": 15}, "challenge_id": 30, "challenge": {"name": "Play to Earn", "value": 100, "id": 30, "category": "Blockchains"}, "date": "2024-08-23T22:58:25.970039+00:00", "id": 1859, "user": {"name": "S8", "id": 106}, "type": "correct"}], "meta": {"count": 1}}

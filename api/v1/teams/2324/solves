@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "PwnParade", "id": 2324}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-24T15:49:25.836156+00:00", "id": 3264, "user": {"name": "Mudman", "id": 4654}, "type": "correct"}], "meta": {"count": 1}}

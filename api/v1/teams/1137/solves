@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "erge", "id": 1137}, "challenge_id": 9, "challenge": {"name": "speedpwn", "value": 227, "id": 9, "category": "Pwn"}, "date": "2024-08-24T17:52:59.725570+00:00", "id": 3385, "user": {"name": "Erge", "id": 2042}, "type": "correct"}], "meta": {"count": 1}}

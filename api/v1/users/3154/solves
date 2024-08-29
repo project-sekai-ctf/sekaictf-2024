@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "katamigasemai", "id": 922}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T16:15:45.067299+00:00", "id": 3299, "user": {"name": "tezizizi", "id": 3154}, "type": "correct"}], "meta": {"count": 1}}

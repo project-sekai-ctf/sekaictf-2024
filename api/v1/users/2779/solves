@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "bacchus", "id": 518}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T17:21:46.735789+00:00", "id": 1091, "user": {"name": "acetaminophen", "id": 2779}, "type": "correct"}], "meta": {"count": 1}}

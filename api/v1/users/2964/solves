@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Emu Exploit", "id": 976}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:13:17.034310+00:00", "id": 302, "user": {"name": "Jamie", "id": 2964}, "type": "correct"}], "meta": {"count": 1}}

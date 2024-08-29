@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "BelRedDaemons", "id": 324}, "challenge_id": 7, "challenge": {"name": "\u306f\u3084\u3076\u3055", "value": 175, "id": 7, "category": "Cryptography"}, "date": "2024-08-24T15:01:20.930373+00:00", "id": 3201, "user": {"name": "jeane", "id": 3597}, "type": "correct"}], "meta": {"count": 1}}

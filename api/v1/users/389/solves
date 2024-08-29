@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "PwnSec", "id": 254}, "challenge_id": 23, "challenge": {"name": "Tagless", "value": 100, "id": 23, "category": "Web"}, "date": "2024-08-23T18:15:24.730140+00:00", "id": 1326, "user": {"name": "aelmo", "id": 389}, "type": "correct"}], "meta": {"count": 1}}

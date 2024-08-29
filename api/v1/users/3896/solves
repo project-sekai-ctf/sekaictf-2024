@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "WHU-DAWN", "id": 108}, "challenge_id": 13, "challenge": {"name": "Intruder", "value": 100, "id": 13, "category": "Web"}, "date": "2024-08-24T10:39:26.725424+00:00", "id": 2858, "user": {"name": "gh4t", "id": 3896}, "type": "correct"}], "meta": {"count": 1}}

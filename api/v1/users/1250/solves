@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "asdos SISOP", "id": 726}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-24T03:40:02.988016+00:00", "id": 2230, "user": {"name": "MrWhok", "id": 1250}, "type": "correct"}], "meta": {"count": 1}}

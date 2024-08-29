@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "\ud83e\udd21\ud83e\udd21", "id": 960}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-25T04:01:51.689235+00:00", "id": 3684, "user": {"name": "kh0a", "id": 1708}, "type": "correct"}], "meta": {"count": 1}}

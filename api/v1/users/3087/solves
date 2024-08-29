@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Toadytop", "id": 1597}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-23T17:11:34.750308+00:00", "id": 1024, "user": {"name": "Toadytop", "id": 3087}, "type": "correct"}], "meta": {"count": 1}}

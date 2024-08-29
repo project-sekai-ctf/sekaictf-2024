@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "pokiTS", "id": 2257}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-24T12:31:16.119001+00:00", "id": 2974, "user": {"name": "pokiCTF", "id": 4529}, "type": "correct"}], "meta": {"count": 1}}

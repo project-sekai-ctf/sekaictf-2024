@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "steveisacunt", "id": 1136}, "challenge_id": 15, "challenge": {"name": "nolibc", "value": 112, "id": 15, "category": "Pwn"}, "date": "2024-08-23T22:58:09.468206+00:00", "id": 1857, "user": {"name": "lets_climb_saturday", "id": 3600}, "type": "correct"}], "meta": {"count": 1}}

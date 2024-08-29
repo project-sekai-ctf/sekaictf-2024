@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Redbird Computer Club", "id": 2375}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-24T17:21:26.238140+00:00", "id": 3356, "user": {"name": "Redbird Computer Club", "id": 4745}, "type": "correct"}], "meta": {"count": 1}}

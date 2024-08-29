@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "FluxFingers", "id": 1400}, "challenge_id": 5, "challenge": {"name": "X64 Extension", "value": 100, "id": 5, "category": "Reverse"}, "date": "2024-08-24T12:02:06.525493+00:00", "id": 2936, "user": {"name": "hlt", "id": 4449}, "type": "correct"}], "meta": {"count": 1}}

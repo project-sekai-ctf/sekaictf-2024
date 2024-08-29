@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "DumbassTeam", "id": 1324}, "challenge_id": 5, "challenge": {"name": "X64 Extension", "value": 100, "id": 5, "category": "Reverse"}, "date": "2024-08-24T09:19:56.587369+00:00", "id": 2754, "user": {"name": "Vesemir", "id": 2410}, "type": "correct"}], "meta": {"count": 1}}

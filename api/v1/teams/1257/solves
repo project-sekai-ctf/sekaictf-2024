@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Kabbalah", "id": 1257}, "challenge_id": 12, "challenge": {"name": "Life Simulator 2", "value": 308, "id": 12, "category": "Pwn"}, "date": "2024-08-24T03:22:04.061261+00:00", "id": 2200, "user": {"name": "Kabbalah", "id": 2274}, "type": "correct"}], "meta": {"count": 1}}

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project SEKAI CTF 2024</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="SekaiCTF 2024" />
+    <meta property="og:description" content="SekaiCTF 2024 is yet another CTF contest brought to you by yet another CTF team." />
+    <meta property="og:image" content="https://ProjectSEKAIctf.1a23.studio/twitter-card.png" />
+    <meta property="og:type" content="website" />
+	<link rel="shortcut icon" href="/files/24c536cfe8f6c9a07567628641120e26/SekaiCTF_Small.png">
+    <script src="https://unpkg.com/@ungap/has-own@0.1.1/min.js"></script>
+
+    
+    <link rel="stylesheet" href="/themes/luna-vite/static/assets/main.1b6d3920.css">
+    
+
+    
+
+    <script type="text/javascript">
+        window.init = {
+            'urlRoot': "",
+            'csrfNonce': "77dae12fb490951e5dd752c326c68e545c828447f76de309306e4d2b4afc6df7",
+            'userMode': "teams",
+            'smallIcon': "/files/24c536cfe8f6c9a07567628641120e26/SekaiCTF_Small.png",
+            'userId': 0,
+            'userName': null,
+            'userEmail': "None",
+            'teamId': null,
+            'teamName': null,
+            'start': 1724428800,
+            'end': 1724601600,
+            'themeSettings': {"cat_name_blockchains": "Blockchains", "cat_name_crypto": "Cryptography", "cat_name_forensics": "Forensics", "cat_name_misc": "Misc", "cat_name_ppc": "PPC", "cat_name_pwn": "Pwn", "cat_name_rev": "Reverse", "cat_name_web": "Web", "challenge_category_order": "", "challenge_order": "", "flag_placeholder": "SEKAI{\u2026}", "social_banner": "https://ProjectSEKAIctf.1a23.studio/twitter-card.png", "social_desc": "SekaiCTF 2024 is yet another CTF contest brought to you by yet another CTF team.", "social_link_icon": "mdi:discord", "social_link_url": "https://discord.gg/6gk7jhCgGX", "tag_difficulty_1": "\u2b50", "tag_difficulty_2": "\u2b50\u2b50", "tag_difficulty_3": "\u2b50\u2b50\u2b50", "tag_difficulty_4": "\u2b50\u2b50\u2b50\u2b50", "tag_difficulty_5": "\u2b50\u2b50\u2b50\u2b50\u2b50", "tag_difficulty_6": "\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50"},
+        }
+    </script>
+
+    
+</head>
+
+<body class="challenges-listing">
+    <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg" style="position: absolute; visibility: hidden;">
+        <filter id="primaryIconStroke" filterUnits="objectBoundingBox"
+            primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feMorphology operator="dilate" radius="2 2" in="SourceGraphic"
+                result="morphology" />
+            <feMorphology operator="dilate" radius="3.5 3.5" in="SourceGraphic"
+                result="morphology1" />
+            <feFlood flood-color="#ffffff" flood-opacity="1" result="flood" />
+            <feFlood flood-color="#E0E0E0" flood-opacity="1" result="flood1" />
+            <feComposite in="flood" in2="morphology" operator="in"
+                result="composite" />
+            <feComposite in="flood1" in2="morphology1" operator="in"
+                result="composite1" />
+            <feMerge result="merge">
+                <feMergeNode in="composite1" />
+                <feMergeNode in="composite" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <filter id="accentIconStroke" filterUnits="objectBoundingBox"
+            primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feMorphology operator="dilate" radius="2 2" in="SourceGraphic"
+                result="morphology" />
+            <feMorphology operator="dilate" radius="3.5 3.5" in="SourceGraphic"
+                result="morphology1" />
+            <feFlood flood-color="#ffffff" flood-opacity="1" result="flood" />
+            <feFlood flood-color="#95FCDB" flood-opacity="1" result="flood1" />
+            <feComposite in="flood" in2="morphology" operator="in"
+                result="composite" />
+            <feComposite in="flood1" in2="morphology1" operator="in"
+                result="composite1" />
+            <feMerge result="merge">
+                <feMergeNode in="composite1" />
+                <feMergeNode in="composite" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <filter id="chevronStroke" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feMorphology operator="dilate" radius="3 3" in="SourceGraphic" result="morphology"/>
+            <feFlood flood-color="#ffffff" flood-opacity="1" result="flood"/>
+            <feComposite in="flood" in2="morphology" operator="in" result="composite2"/>
+            <feMerge result="merge">
+                    <feMergeNode in="composite2"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+        </filter>
+        <linearGradient id="primaryGradient" gradientTransform="rotate(90)">
+            <stop offset="0%" stop-color="#EB53B8" stop-opacity="1" />
+            <stop offset="100%" stop-color="#EE79F8" stop-opacity="1" />
+        </linearGradient>
+    </svg>
+
+    
+<div class="triangleContainer page-challenges-listing">
+
+    <button class="button shade iconButton menuButton buttonNotification" id="mainMenuButton" aria-label="Main menu" title="Main Menu">
+    <iconify-icon icon="ic:baseline-menu"></iconify-icon>
+</button>
+<dialog class="modal fit" id="mainMenuModal">
+    <h2 class="modalHeader">Menu</h2>
+    <div class="modalBody">
+        
+            <a class="button textButton shade primaryIcon" href="/rules">
+                <iconify-icon icon="ic:baseline-contact-page"></iconify-icon>
+                <span>Rules</span>
+            </a>
+        
+
+        
+            
+                <a class="button textButton shade primaryIcon" href="/teams">
+                    <iconify-icon icon="ic:baseline-people-alt"></iconify-icon>
+                    <span>Teams</span>
+                </a>
+            
+
+            <a class="button textButton shade primaryIcon" href="/users">
+                <iconify-icon icon="ic:baseline-person"></iconify-icon>
+                <span>Users</span>
+            </a>
+        
+
+        
+            <a class="button textButton shade primaryIcon" href="/scoreboard">
+                <iconify-icon icon="mdi:podium"></iconify-icon>
+                <span>Ranking</span>
+            </a>
+        
+
+        <a class="button textButton alternate" href="/">
+            <iconify-icon icon="ic:baseline-home"></iconify-icon>
+            <span>Home</span>
+        </a>
+
+        <a class="button textButton alternate" id="mainMenuTitleBtn" href="/">
+            <iconify-icon icon="icon-park-solid:back"></iconify-icon>
+            <span>Title</span>
+        </a>
+
+        
+
+            
+<a class="button textButton alternate" id="mainMenuTitleBtn" href="/challenges">
+                    <iconify-icon icon="fluent:music-note-2-24-filled"></iconify-icon>
+                    <span>Challenges</span>
+                </a>            
+
+<a class="button textButton alternate" id="mainMenuTitleBtn" href="https://github.com/project-sekai-ctf/sekaictf-2024/">
+                <iconify-icon icon="mdi:github"></iconify-icon>
+                <span>GitHub</span>
+            </a>        
+    </div>
+    <div class="modalFooter">
+        <button class="button textButton shade" id="mainMenuClose">
+            <span>Close</span>
+        </button>
+    </div>
+</dialog>
+    
+<div id="challengesWrapper" x-data="ChallengeBoard" @load-challenges.window="loadChallengesEvt()"
+@load-challenge.window="loadChallengeEvt($event.detail)" @collapse-challenge.window="collapseChallengeEvt()" @lrlr.window="lrlr()">
+  <div class="titleContainer">
+      <button class="button iconButton shade" id="backButton" aria-label="Go back" title="Go back">
+          <iconify-icon icon="icon-park-solid:back"></iconify-icon>
+      </button>
+      <div class="titleGroup">
+          <h1 class="title" x-text="lrn === null ? 'Challenges' : 'Solo Live'">Challenges</h1>
+          <h2 class="subtitle"><span x-text="lrn === null ? 'Challenges list' : '楽曲選択'" :lang="lrn === null ? '' : 'ja'">Challenges list</span></h2>
+      </div>
+    </div>
+    <button class="button iconButton tiny" id="settingsButton" @click="$refs.settingsModal.showModal()" aria-label="Challenge settings" title="Challenge settings">
+      <iconify-icon icon="material-symbols:settings"></iconify-icon>
+    </button>
+  <nav class="tabs">
+      <div class="filler"></div>
+      <button :class="{'tab': true, 'active': category === null}" @click="setCategory(null)" aria-label="All challenges" x-text="lrn === null ? 'All' : 'すべて'" :lang="lrn === null ? '' : 'ja'">All</button>
+      <template x-for="(cat, idx) in getCategoryWithIcons()" :key="idx">
+        <button class="tab" :class="{'tab': true, 'active': category === cat[0]}" @click="setCategory(cat[0])" :aria-label="`${cat[0]}, category`">
+          <img :src="cat[1]" :alt="cat[0]" x-show="cat[1] !== null" :title="cat[0]" aria-hidden="true"/>
+          <span x-text="cat[0]" x-show="cat[1] === null"></span>
+        </button>
+      </template>
+      <div class="filler"></div>
+  </nav>
+
+  <div id="challengesListWrapper">
+    <div id="challengesList" :class="{'loopHighlight': loopHighlight, 'highContrast': highContrast}" x-ref="listNode" role="list" aria-label="Challenges list">
+      <div x-show="filteredChallenges.length < 1" class="noChallenge">No challenges found.</div>
+      <div x-show="filteredChallenges.length > 0" class="indicator">▶</div>
+      <template x-for="(ch, idx) in repeatArray(filteredChallenges, repeatTimes)" :key="`a${ch.id}-${idx}`">
+        <div :data-id="ch.id" :class="{'challengeItem': true, 'solved': ch.solved_by_me, 'solvedFirst': ch.is_first_solver, }" @click="selectChallenge(idx % filteredChallenges.length, $event.target)" aria-hidden="true">
+        <div :class="{challengeScore: true, solves: sortOrder === 'Solves', lrn: lrn !== null}"
+    x-text="sortOrder === 'Solves' ? ch.solves : ch.value"
+    :aria-label="sortOrder === 'Solves' ? `${ch.solves} solves` : `${ch.value} points`"></div>
+<template x-if="lrn !== null"><img :src="`https://assets.pjsek.ai/file/pjsekai-assets/startapp/music/jacket/${lrn[(ch.id - 1) % lrn.length].assetbundleName}/${lrn[(ch.id - 1) % lrn.length].assetbundleName}.png`" class="challengeCover"></template>
+<div class="challengeDetails">
+    <div class="challengeLabel" x-show="ch.label" x-text="ch.label"></div>
+    <div class="challengeTitle" x-text="lrn === null ? ch.name : lrn[(ch.id - 1) % lrn.length].title" :lang="lrn === null ? '' : 'ja'"></div>
+    <div class="challengeCategory" x-text="ch.category"></div>
+    <div class="challengeDifficulty" x-bind:title="`Difficulty level ${ch.difficulty}, ` + (ch.is_first_solver ? 'you are the first solver' : ch.solved_by_me ? 'solved' : 'unsolved')" style="display: flex; align-items: center;">
+        <template x-for="(_, index) in Array(Math.min(ch.difficulty, 5))">
+            <span 
+                :class="{'challengeIndicator': true, 'first': ch.is_first_solver, 'solved': ch.solved_by_me && !ch.is_first_solver}"
+                :style="`
+                    width: 0.7rem; 
+                    height: 0.7rem; 
+                    background: ${ch.is_first_solver ? 'linear-gradient(135deg, #fb9cf7, #9cbfff, #00fcbb)' : (ch.solved_by_me ? 'linear-gradient(135deg, #FFEFB5, #FFD642)' : '#444463')};
+                    border: 2px solid #444463;
+                    transform: rotate(45deg);
+                    border-radius: 3px;
+                    display: inline-block;
+                `"
+            ></span>
+        </template>
+        <template x-if="ch.difficulty >= 6">
+            <div style="width: 18px; height: 18px; margin-left: 0.2rem;">
+                <svg width="18" height="18" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="gradientFirst" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#fb9cf7" />
+                            <stop offset="50%" stop-color="#9cbfff" />
+                            <stop offset="100%" stop-color="#00fcbb" />
+                        </linearGradient>
+                        <linearGradient id="gradientSolved" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#FFEFB5" />
+                            <stop offset="100%" stop-color="#FFD642" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M14.4342 51.6669L14.438 51.6747L15.9692 54.7961L14.711 57.2272C14.7092 57.2306 14.7074 57.2341 14.7056 57.2376C11.1837 63.9746 8.56351 70.6589 7.0384 76.7514C5.53853 82.7431 4.98324 88.6145 6.06233 93.5061L6.07094 93.5452L6.08012 93.5841C7.17326 98.2181 10.5417 102.582 15.6491 103.801C20.2991 104.933 26.4859 104.141 32.5286 102.593C38.8211 100.981 45.844 98.3118 52.5625 94.8878C52.5631 94.8875 52.5636 94.8872 52.5642 94.8869L54.618 93.8444L55.512 94.3412L55.5646 94.3705L55.6178 94.3985C57.7133 95.5037 62.1928 97.5968 65.7257 99.0187C73.0039 102.013 79.7228 103.878 85.3952 104.369C90.787 104.836 96.6178 104.168 100.463 100.322C102.499 98.2849 103.493 95.4407 103.986 93.0394C104.513 90.4703 104.638 87.5711 104.346 84.6794C104.023 81.24 102.801 76.5749 101.282 72.0142C99.7293 67.3562 97.7221 62.3825 95.623 58.2579C95.6227 58.2575 95.6225 58.2571 95.6223 58.2566L93.8613 54.7944L95.4126 51.7485L95.4181 51.7377C100.876 40.9625 104.604 28.693 104.227 20.4295C104.068 16.9158 103.348 13.2186 100.771 10.3336C98.1607 7.41159 94.561 6.33767 91.0845 5.88694C82.2716 4.72822 70.3836 8.13262 58.17 14.2229C58.1692 14.2233 58.1684 14.2236 58.1676 14.224L54.8049 15.8958L51.0179 14.0123L51.0149 14.0108C43.3901 10.2246 36.0864 7.55471 29.7139 6.30496C23.5927 5.10451 17.2782 5.00444 12.4959 7.69863C12.4709 7.71275 12.4448 7.7274 12.4178 7.74258C12.0466 7.9511 11.4974 8.25965 10.9464 8.67075C10.343 9.12096 9.85022 9.60504 9.42477 10.0306C8.34728 11.1084 7.73499 12.1148 7.28916 13.0011C6.01232 15.4839 5.66846 18.4173 5.6826 21.108C5.69742 23.9258 6.11308 27.0672 6.81356 30.3279C8.21621 36.8572 10.8724 44.377 14.4342 51.6669Z" 
+                         :fill="ch.is_first_solver ? 'url(#gradientFirst)' : (ch.solved_by_me ? 'url(#gradientSolved)' : '#444463')"
+                         stroke="#444463" stroke-width="11" />
+                </svg>
+            </div>
+        </template>
+    </div>
+</div>
+        </div>
+      </template>
+      <template x-for="(ch, idx) in filteredChallenges" :key="`c${ch.id}-${idx}`">
+        <button :data-id="ch.id" :data-is-center="idx" :data-index="idx" 
+          :class="{ 'challengeItem': true, 'solved': ch.solved_by_me, 'solvedFirst': ch.is_first_solver, 'selected': ch.id === selectedId }" 
+          @click="selectChallenge(idx, $event.target)" role="listitem" :aria-label="`${ch.name}, ${ch.value} points, category ${ch.category}, difficulty level ${ch.difficulty}, ` + (ch.is_first_solver ? 'you are the first solver' : ch.solved_by_me ? 'solved' : 'unsolved')"> 
+        <div :class="{challengeScore: true, solves: sortOrder === 'Solves', lrn: lrn !== null}"
+    x-text="sortOrder === 'Solves' ? ch.solves : ch.value"
+    :aria-label="sortOrder === 'Solves' ? `${ch.solves} solves` : `${ch.value} points`"></div>
+<template x-if="lrn !== null"><img :src="`https://assets.pjsek.ai/file/pjsekai-assets/startapp/music/jacket/${lrn[(ch.id - 1) % lrn.length].assetbundleName}/${lrn[(ch.id - 1) % lrn.length].assetbundleName}.png`" class="challengeCover"></template>
+<div class="challengeDetails">
+    <div class="challengeLabel" x-show="ch.label" x-text="ch.label"></div>
+    <div class="challengeTitle" x-text="lrn === null ? ch.name : lrn[(ch.id - 1) % lrn.length].title" :lang="lrn === null ? '' : 'ja'"></div>
+    <div class="challengeCategory" x-text="ch.category"></div>
+    <div class="challengeDifficulty" x-bind:title="`Difficulty level ${ch.difficulty}, ` + (ch.is_first_solver ? 'you are the first solver' : ch.solved_by_me ? 'solved' : 'unsolved')" style="display: flex; align-items: center;">
+        <template x-for="(_, index) in Array(Math.min(ch.difficulty, 5))">
+            <span 
+                :class="{'challengeIndicator': true, 'first': ch.is_first_solver, 'solved': ch.solved_by_me && !ch.is_first_solver}"
+                :style="`
+                    width: 0.7rem; 
+                    height: 0.7rem; 
+                    background: ${ch.is_first_solver ? 'linear-gradient(135deg, #fb9cf7, #9cbfff, #00fcbb)' : (ch.solved_by_me ? 'linear-gradient(135deg, #FFEFB5, #FFD642)' : '#444463')};
+                    border: 2px solid #444463;
+                    transform: rotate(45deg);
+                    border-radius: 3px;
+                    display: inline-block;
+                `"
+            ></span>
+        </template>
+        <template x-if="ch.difficulty >= 6">
+            <div style="width: 18px; height: 18px; margin-left: 0.2rem;">
+                <svg width="18" height="18" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="gradientFirst" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#fb9cf7" />
+                            <stop offset="50%" stop-color="#9cbfff" />
+                            <stop offset="100%" stop-color="#00fcbb" />
+                        </linearGradient>
+                        <linearGradient id="gradientSolved" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#FFEFB5" />
+                            <stop offset="100%" stop-color="#FFD642" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M14.4342 51.6669L14.438 51.6747L15.9692 54.7961L14.711 57.2272C14.7092 57.2306 14.7074 57.2341 14.7056 57.2376C11.1837 63.9746 8.56351 70.6589 7.0384 76.7514C5.53853 82.7431 4.98324 88.6145 6.06233 93.5061L6.07094 93.5452L6.08012 93.5841C7.17326 98.2181 10.5417 102.582 15.6491 103.801C20.2991 104.933 26.4859 104.141 32.5286 102.593C38.8211 100.981 45.844 98.3118 52.5625 94.8878C52.5631 94.8875 52.5636 94.8872 52.5642 94.8869L54.618 93.8444L55.512 94.3412L55.5646 94.3705L55.6178 94.3985C57.7133 95.5037 62.1928 97.5968 65.7257 99.0187C73.0039 102.013 79.7228 103.878 85.3952 104.369C90.787 104.836 96.6178 104.168 100.463 100.322C102.499 98.2849 103.493 95.4407 103.986 93.0394C104.513 90.4703 104.638 87.5711 104.346 84.6794C104.023 81.24 102.801 76.5749 101.282 72.0142C99.7293 67.3562 97.7221 62.3825 95.623 58.2579C95.6227 58.2575 95.6225 58.2571 95.6223 58.2566L93.8613 54.7944L95.4126 51.7485L95.4181 51.7377C100.876 40.9625 104.604 28.693 104.227 20.4295C104.068 16.9158 103.348 13.2186 100.771 10.3336C98.1607 7.41159 94.561 6.33767 91.0845 5.88694C82.2716 4.72822 70.3836 8.13262 58.17 14.2229C58.1692 14.2233 58.1684 14.2236 58.1676 14.224L54.8049 15.8958L51.0179 14.0123L51.0149 14.0108C43.3901 10.2246 36.0864 7.55471 29.7139 6.30496C23.5927 5.10451 17.2782 5.00444 12.4959 7.69863C12.4709 7.71275 12.4448 7.7274 12.4178 7.74258C12.0466 7.9511 11.4974 8.25965 10.9464 8.67075C10.343 9.12096 9.85022 9.60504 9.42477 10.0306C8.34728 11.1084 7.73499 12.1148 7.28916 13.0011C6.01232 15.4839 5.66846 18.4173 5.6826 21.108C5.69742 23.9258 6.11308 27.0672 6.81356 30.3279C8.21621 36.8572 10.8724 44.377 14.4342 51.6669Z" 
+                         :fill="ch.is_first_solver ? 'url(#gradientFirst)' : (ch.solved_by_me ? 'url(#gradientSolved)' : '#444463')"
+                         stroke="#444463" stroke-width="11" />
+                </svg>
+            </div>
+        </template>
+    </div>
+</div>
+        </button>
+      </template>
+      <template x-for="(ch, idx) in repeatArray(filteredChallenges, repeatTimes)" :key="`b${ch.id}-${idx}`" x-ref="bottomRepeatTemplate">
+        <div :data-id="ch.id" :class="{'challengeItem': true, 'solved': ch.solved_by_me, 'solvedFirst': ch.is_first_solver, }" @click="selectChallenge(idx % filteredChallenges.length, $event.target)" aria-hidden="true">
+        <div :class="{challengeScore: true, solves: sortOrder === 'Solves', lrn: lrn !== null}"
+    x-text="sortOrder === 'Solves' ? ch.solves : ch.value"
+    :aria-label="sortOrder === 'Solves' ? `${ch.solves} solves` : `${ch.value} points`"></div>
+<template x-if="lrn !== null"><img :src="`https://assets.pjsek.ai/file/pjsekai-assets/startapp/music/jacket/${lrn[(ch.id - 1) % lrn.length].assetbundleName}/${lrn[(ch.id - 1) % lrn.length].assetbundleName}.png`" class="challengeCover"></template>
+<div class="challengeDetails">
+    <div class="challengeLabel" x-show="ch.label" x-text="ch.label"></div>
+    <div class="challengeTitle" x-text="lrn === null ? ch.name : lrn[(ch.id - 1) % lrn.length].title" :lang="lrn === null ? '' : 'ja'"></div>
+    <div class="challengeCategory" x-text="ch.category"></div>
+    <div class="challengeDifficulty" x-bind:title="`Difficulty level ${ch.difficulty}, ` + (ch.is_first_solver ? 'you are the first solver' : ch.solved_by_me ? 'solved' : 'unsolved')" style="display: flex; align-items: center;">
+        <template x-for="(_, index) in Array(Math.min(ch.difficulty, 5))">
+            <span 
+                :class="{'challengeIndicator': true, 'first': ch.is_first_solver, 'solved': ch.solved_by_me && !ch.is_first_solver}"
+                :style="`
+                    width: 0.7rem; 
+                    height: 0.7rem; 
+                    background: ${ch.is_first_solver ? 'linear-gradient(135deg, #fb9cf7, #9cbfff, #00fcbb)' : (ch.solved_by_me ? 'linear-gradient(135deg, #FFEFB5, #FFD642)' : '#444463')};
+                    border: 2px solid #444463;
+                    transform: rotate(45deg);
+                    border-radius: 3px;
+                    display: inline-block;
+                `"
+            ></span>
+        </template>
+        <template x-if="ch.difficulty >= 6">
+            <div style="width: 18px; height: 18px; margin-left: 0.2rem;">
+                <svg width="18" height="18" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="gradientFirst" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#fb9cf7" />
+                            <stop offset="50%" stop-color="#9cbfff" />
+                            <stop offset="100%" stop-color="#00fcbb" />
+                        </linearGradient>
+                        <linearGradient id="gradientSolved" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#FFEFB5" />
+                            <stop offset="100%" stop-color="#FFD642" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M14.4342 51.6669L14.438 51.6747L15.9692 54.7961L14.711 57.2272C14.7092 57.2306 14.7074 57.2341 14.7056 57.2376C11.1837 63.9746 8.56351 70.6589 7.0384 76.7514C5.53853 82.7431 4.98324 88.6145 6.06233 93.5061L6.07094 93.5452L6.08012 93.5841C7.17326 98.2181 10.5417 102.582 15.6491 103.801C20.2991 104.933 26.4859 104.141 32.5286 102.593C38.8211 100.981 45.844 98.3118 52.5625 94.8878C52.5631 94.8875 52.5636 94.8872 52.5642 94.8869L54.618 93.8444L55.512 94.3412L55.5646 94.3705L55.6178 94.3985C57.7133 95.5037 62.1928 97.5968 65.7257 99.0187C73.0039 102.013 79.7228 103.878 85.3952 104.369C90.787 104.836 96.6178 104.168 100.463 100.322C102.499 98.2849 103.493 95.4407 103.986 93.0394C104.513 90.4703 104.638 87.5711 104.346 84.6794C104.023 81.24 102.801 76.5749 101.282 72.0142C99.7293 67.3562 97.7221 62.3825 95.623 58.2579C95.6227 58.2575 95.6225 58.2571 95.6223 58.2566L93.8613 54.7944L95.4126 51.7485L95.4181 51.7377C100.876 40.9625 104.604 28.693 104.227 20.4295C104.068 16.9158 103.348 13.2186 100.771 10.3336C98.1607 7.41159 94.561 6.33767 91.0845 5.88694C82.2716 4.72822 70.3836 8.13262 58.17 14.2229C58.1692 14.2233 58.1684 14.2236 58.1676 14.224L54.8049 15.8958L51.0179 14.0123L51.0149 14.0108C43.3901 10.2246 36.0864 7.55471 29.7139 6.30496C23.5927 5.10451 17.2782 5.00444 12.4959 7.69863C12.4709 7.71275 12.4448 7.7274 12.4178 7.74258C12.0466 7.9511 11.4974 8.25965 10.9464 8.67075C10.343 9.12096 9.85022 9.60504 9.42477 10.0306C8.34728 11.1084 7.73499 12.1148 7.28916 13.0011C6.01232 15.4839 5.66846 18.4173 5.6826 21.108C5.69742 23.9258 6.11308 27.0672 6.81356 30.3279C8.21621 36.8572 10.8724 44.377 14.4342 51.6669Z" 
+                         :fill="ch.is_first_solver ? 'url(#gradientFirst)' : (ch.solved_by_me ? 'url(#gradientSolved)' : '#444463')"
+                         stroke="#444463" stroke-width="11" />
+                </svg>
+            </div>
+        </template>
+    </div>
+</div>
+        </div>
+      </template>
+    </div>
+    <div x-show="!loaded" class="loadingWrapper"><div class="loading">Now loading<span class="dot0">.</span><span class="dot1">.</span><span class="dot2">.</span></div></div>
+    
+    
+    </div>
+
+  <article id="challengesContentWrapper" :class="{'expanded': selectedId !== null}" x-ref="challengesContentWrapper" tabindex="0" x-html="$store.challenge.data.view">
+  </article>
+  <div class="loadingWrapper" x-show="$store.challenge.loading"><div class="loading">Now loading<span class="dot0">.</span><span class="dot1">.</span><span class="dot2">.</span></div></div>
+
+  <dialog class="modal fit" id="challengesSettings" x-ref="settingsModal" :lang="lrn === null ? '' : 'ja'">
+    <h2 class="modalHeader" x-text="lrn === null ? 'Challenges settings' : 'オプション'">Challenges settings</h2>
+    <div class="modalBody">
+      <h3 class="sectionTitle" x-text="lrn === null ? 'Sort order' : '並べ替え'">Sort order</h3>
+      <div class="challengeSettings2">
+        <div class="radioGroup">
+          <input type="radio" @change="refreshSortFilter()" name="sortOrder" x-model="sortOrder" id="sortOrederDifficulty" value="Difficulty">
+          <label for="sortOrederDifficulty" x-text="lrn === null ? 'Difficulty' : '難易度順'">Difficulty</label>
+        </div>
+        <div class="radioGroup">
+          <input type="radio" @change="refreshSortFilter()" name="sortOrder" x-model="sortOrder" id="sortOrederScore" value="Score">
+          <label for="sortOrederScore" x-text="lrn === null ? 'Score' : 'スコア順'">Score</label>
+        </div>
+        <div class="radioGroup">
+          <input type="radio" @change="refreshSortFilter()" name="sortOrder" x-model="sortOrder" id="sortOrederSolves" value="Solves">
+          <label for="sortOrederSolves" x-text="lrn === null ? 'Solves' : 'クリア人数順'">Solves</label>
+        </div>
+        <div class="radioGroup">
+          <input type="radio" @change="refreshSortFilter()" name="sortOrder" x-model="sortOrder" id="sortOrederName" value="Name">
+          <label for="sortOrederName" x-text="lrn === null ? 'Name' : '50音順'">Name</label>
+        </div>
+      </div>
+      <h3 class="sectionTitle" x-text="lrn === null ? 'Filter challenges' : '絞り込み'">Filter challenges</h3>
+      <div class="challengeSettings3">
+        <div class="radioGroup">
+          <input type="radio" @change="refreshSortFilter()" name="filterCondition" x-model="filterCondition" id="filterConditionAll" value="All">
+          <label for="filterConditionAll" x-text="lrn === null ? 'All' : 'すべて'">All</label>
+        </div>
+        <div class="radioGroup">
+          <input type="radio" @change="refreshSortFilter()" name="filterCondition" x-model="filterCondition" id="filterConditionUnsolved" value="Unsolved">
+          <label for="filterConditionUnsolved" x-text="lrn === null ? 'Unsolved' : '未クリア'">Unsolved</label>
+        </div>
+        <div class="radioGroup">
+          <input type="radio" @change="refreshSortFilter()" name="filterCondition" x-model="filterCondition" id="filterConditionSolved" value="Solved">
+          <label for="filterConditionSolved" x-text="lrn === null ? 'Solved' : 'クリア済み'">Solved</label>
+        </div>
+      </div>
+      <h3 class="sectionTitle" x-text="lrn === null ? 'Accessibility' : 'システム'">Accessibility</h3>
+      <div class="challengeSettings3">
+        <div class="chip" x-text="lrn === null ? 'Focus mode' : 'フォーカスモード'">Focus mode</div>
+        <div class="radioGroup">
+          <input type="radio" name="loopHighlight" x-model.number="loopHighlight" id="loopHighlightOn" value="1">
+          <label for="loopHighlightOn" x-text="lrn === null ? 'On' : 'ON'">On</label>
+        </div>
+        <div class="radioGroup">
+          <input type="radio" name="loopHighlight" x-model.number="loopHighlight" id="loopHighlightOff" value="0">
+          <label for="loopHighlightOff" x-text="lrn === null ? 'Off' : 'OFF'">Off</label>
+        </div>
+        <div class="chip" x-text="lrn === null ? 'High contrast' : 'ハイコントラスト'">High contrast</div>
+        <div class="radioGroup">
+          <input type="radio" name="highContrast" x-model.number="highContrast" id="highContrastOn" value="1">
+          <label for="highContrastOn" x-text="lrn === null ? 'On' : 'ON'">On</label>
+        </div>
+        <div class="radioGroup">
+          <input type="radio" name="highContrast" x-model.number="highContrast" id="highContrastOff" value="0">
+          <label for="highContrastOff" x-text="lrn === null ? 'Off' : 'OFF'">Off</label>
+        </div>
+      </div>
+    </div>
+    <div class="modalFooter">
+        <button class="button textButton shade" x-ref="settingsModalClose">
+            <span x-text="lrn === null ? 'Close' : '閉じる'" :lang="lrn === null ? '' : 'ja'">Close</span>
+        </button>
+    </div>
+  </dialog>
+
+  <dialog class="modal fit" id="oobeModal" x-ref="oobeModal">
+    <h2 class="modalHeader">Select a style</h2>
+    <div class="modalBody modeSelection">
+      <button class="button" id="focusMode" @click="oobeUpdate(true)">
+        <iconify-icon icon="carbon:accessibility-color"></iconify-icon>
+        <div class="subName" lang="ja">フォーカスモード</div>  
+        <div class="mainName">Focus mode</div>
+      </button>
+      <button class="button" id="sekaiMode" @click="oobeUpdate(false)">
+        <iconify-icon icon="fluent:music-note-2-24-filled"></iconify-icon>
+        <div class="subName" lang="ja">セカイモード</div>  
+        <div class="mainName">SEKAI mode</div>
+      </button>
+    </div>
+    <div class="modalFooter">
+      <div class="formHint">You can change your selection later in the Settings panel.</div>
+    </div>
+  </dialog>
+</div>
+
+
+</div>
+
+
+    <script>
+        window.strings = {
+            "The CTF is archived.": "The CTF is archived.",
+            "D MMM YYYY, H:mm": "D MMM YYYY, H:mm",
+            "%(time)s until start.": "%(time)s until start.",
+            "%(time)s until end.": "%(time)s until end.",
+            "%(days)sd %(rest)s": "%(days)sd %(rest)s",
+            "%(hours)sh %(rest)s": "%(hours)sh %(rest)s",
+            "HH[h] mm[m] ss[s]": "HH[h] mm[m] ss[s]",
+            "mm[m] ss[s]": "mm[m] ss[s]",
+            "The CTF has started.": "The CTF has started.",
+            "The CTF has ended.": "The CTF has ended.",
+            "Category Breakdown": "Category Breakdown",
+            "Top 10 Teams": "Top 10 Teams",
+            "Top 10 Users": "Top 10 Users",
+            "Solve Percentages": "Solve Percentages",
+            "Fails": "Fails",
+            "Solves": "Solves",
+            "Score over Time": "Score over Time",
+            "Clipboard is not available.": "Clipboard is not available.",
+            "Copied!": "Copied!",
+            "%d<small>s</small>": "%d<small>s</small>",
+            "1<small>min</small>": "1<small>min</small>",
+            "%d<small>mins</small>": "%d<small>mins</small>",
+            "1<small>hr</small>": "1<small>hr</small>",
+            "%d<small>hrs</small>": "%d<small>hrs</small>",
+            "1<small>d</small>": "1<small>d</small>",
+            "%d<small>d</small>": "%d<small>d</small>",
+            "1<small>mth</small>": "1<small>mth</small>",
+            "%d<small>mths</small>": "%d<small>mths</small>",
+            "1<small>yr</small>": "1<small>yr</small>",
+            "%d<small>yrs</small>": "%d<small>yrs</small>",
+            "Hint is not available.": "Hint is not available.",
+            "Close": "Close",
+            "Invite users": "Invite users",
+        };
+    </script>
+    <script defer type="module" src="/themes/luna-vite/static/assets/duration.21bcce5f.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/echarts.4cc66d9c.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/notificationCounter.4f4e1e9f.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/base.29aca91b.js"></script>
+    
+
+
+    
+<style>
+    :root {
+        --icon-wall: url("/themes/luna-vite/static/img/assets/icon-wall.svg?d=aa9b6db7");
+        --triangular-bg: url("/themes/luna-vite/static/img/triangular-bg.svg?d=aa9b6db7");
+        --halftone-tail: url("/themes/luna-vite/static/img/halftone-tail.svg?d=aa9b6db7");
+        --stripe-border: url("/themes/luna-vite/static/img/stripe-border.svg?d=aa9b6db7");
+    }
+</style>
+
+<style>
+body {
+    --popout: url("/themes/luna-vite/static/img/popout.svg?d=aa9b6db7");
+}
+</style>
+<script>
+  window.tagImages = {
+    "misc": "/themes/luna-vite/static/img/categories/Misc.svg?d=aa9b6db7",
+    "crypto": "/themes/luna-vite/static/img/categories/Crypto.svg?d=aa9b6db7",
+    "forensics": "/themes/luna-vite/static/img/categories/Forensics.svg?d=aa9b6db7",
+    "reverse": "/themes/luna-vite/static/img/categories/Reverse.svg?d=aa9b6db7",
+    "pwn": "/themes/luna-vite/static/img/categories/Pwn.svg?d=aa9b6db7",
+    "ppc": "/themes/luna-vite/static/img/categories/PPC.png?d=aa9b6db7",
+    "web": "/themes/luna-vite/static/img/categories/Web.svg?d=aa9b6db7",
+    "blockchains": "/themes/luna-vite/static/img/categories/Blockchains.svg?d=aa9b6db7",
+  };
+  window.rankIcons = [
+    "/themes/luna-vite/static/img/ranks/rank-1.svg?d=aa9b6db7",
+    "/themes/luna-vite/static/img/ranks/rank-2.svg?d=aa9b6db7",
+    "/themes/luna-vite/static/img/ranks/rank-3.svg?d=aa9b6db7",
+  ];
+</script>
+<script defer type="module" src="/themes/luna-vite/static/assets/module.esm.860ebcbd.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/base.29aca91b.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/duration.21bcce5f.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/lodash.35b6ecef.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/clipboard.ea7c673c.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/echarts.4cc66d9c.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/notificationCounter.4f4e1e9f.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/tippy.esm.67f4ecc9.js"></script><script defer type="module" src="/themes/luna-vite/static/assets/challenges.ef87c991.js"></script>
+<script defer type="module" src="/ctfd2pages/hooks/challenges.min.js"></script>
+
+
+    
+
+    <style>
+        body {
+            --halftone-bg: url("/themes/luna-vite/static/img/halftoneButtonBg.svg?d=aa9b6db7");
+            --halftone-bg-white: url("/themes/luna-vite/static/img/halftoneButtonBgWhite.svg?d=aa9b6db7");
+            --halftone-bg-white-25: url("/themes/luna-vite/static/img/halftoneButtonBgWhite25.svg?d=aa9b6db7");
+        }
+
+        @font-face {
+            font-family: "InterVar";
+            font-weight: 100 900;
+            font-display: swap;
+            font-style: normal;
+            src: url("/themes/luna-vite/static/fonts/InterVariable.woff2?d=aa9b6db7") format("woff2-variations"),
+                 url("/themes/luna-vite/static/fonts/InterVariable.woff2?d=aa9b6db7") format("woff2");
+            src: url("/themes/luna-vite/static/fonts/InterVariable.woff2?d=aa9b6db7") format("woff2") tech("variations");
+        }
+        
+        @font-face {
+            font-family: "InterVar";
+            font-weight: 100 900;
+            font-display: swap;
+            font-style: italic;
+            src: url("/themes/luna-vite/static/fonts/InterVariable-Italic.woff2?d=aa9b6db7") format("woff2-variations"),
+                 url("/themes/luna-vite/static/fonts/InterVariable-Italic.woff2?d=aa9b6db7") format("woff2");
+            src: url("/themes/luna-vite/static/fonts/InterVariable-Italic.woff2?d=aa9b6db7") format("woff2") tech("variations");
+        }
+    </style>
+
+    
+</body>
+
+</html>

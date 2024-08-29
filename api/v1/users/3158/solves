@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "DragonSec SI", "id": 1042}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-25T10:17:04.633789+00:00", "id": 4162, "user": {"name": "urichh", "id": 3158}, "type": "correct"}], "meta": {"count": 1}}

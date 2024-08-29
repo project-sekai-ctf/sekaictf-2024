@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "pwnlentoni", "id": 1747}, "challenge_id": 13, "challenge": {"name": "Intruder", "value": 100, "id": 13, "category": "Web"}, "date": "2024-08-24T13:40:14.208547+00:00", "id": 3057, "user": {"name": "augusto", "id": 3856}, "type": "correct"}], "meta": {"count": 1}}

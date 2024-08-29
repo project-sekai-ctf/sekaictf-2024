@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "undo", "id": 1585}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:23:34.554541+00:00", "id": 568, "user": {"name": "xorshift_test", "id": 3063}, "type": "correct"}], "meta": {"count": 1}}

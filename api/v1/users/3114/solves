@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Ganesh", "id": 558}, "challenge_id": 27, "challenge": {"name": "Miku vs. Machine", "value": 100, "id": 27, "category": "PPC"}, "date": "2024-08-23T17:56:13.350304+00:00", "id": 1251, "user": {"name": "darkrafal", "id": 3114}, "type": "correct"}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Hack Smarter", "id": 645}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:25:02.210006+00:00", "id": 583, "user": {"name": "nm", "id": 2715}, "type": "correct"}], "meta": {"count": 1}}

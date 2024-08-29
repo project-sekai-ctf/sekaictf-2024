@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "L3H Sec", "id": 313}, "challenge_id": 5, "challenge": {"name": "X64 Extension", "value": 100, "id": 5, "category": "Reverse"}, "date": "2024-08-24T03:55:19.198143+00:00", "id": 2256, "user": {"name": "noxke", "id": 3039}, "type": "correct"}], "meta": {"count": 1}}

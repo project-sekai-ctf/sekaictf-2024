@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "malectrica", "id": 350}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-24T00:20:55.655695+00:00", "id": 1954, "user": {"name": "BeatBot", "id": 3491}, "type": "correct"}], "meta": {"count": 1}}

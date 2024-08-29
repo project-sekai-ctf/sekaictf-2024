@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "TRX", "id": 709}, "challenge_id": 15, "challenge": {"name": "nolibc", "value": 112, "id": 15, "category": "Pwn"}, "date": "2024-08-24T23:03:03.401005+00:00", "id": 3565, "user": {"name": "Erge_daje_roma", "id": 4871}, "type": "correct"}], "meta": {"count": 1}}

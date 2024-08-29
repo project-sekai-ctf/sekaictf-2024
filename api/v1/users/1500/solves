@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "SleepyHollow", "id": 851}, "challenge_id": 15, "challenge": {"name": "nolibc", "value": 112, "id": 15, "category": "Pwn"}, "date": "2024-08-24T13:51:11.288781+00:00", "id": 3094, "user": {"name": "meisr", "id": 1500}, "type": "correct"}], "meta": {"count": 1}}

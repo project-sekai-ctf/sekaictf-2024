@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "happy_bilat", "id": 2021}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-24T03:58:00.415197+00:00", "id": 2262, "user": {"name": "dek_oten", "id": 4070}, "type": "correct"}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "welovepython<3", "id": 516}, "challenge_id": 9, "challenge": {"name": "speedpwn", "value": 227, "id": 9, "category": "Pwn"}, "date": "2024-08-25T05:07:25.788222+00:00", "id": 3771, "user": {"name": "jelly8173", "id": 1315}, "type": "correct"}], "meta": {"count": 1}}

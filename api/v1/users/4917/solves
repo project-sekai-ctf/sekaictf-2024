@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Neutral.B", "id": 2475}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-25T15:05:51.869151+00:00", "id": 4478, "user": {"name": "Neutral.B", "id": 4917}, "type": "correct"}], "meta": {"count": 1}}

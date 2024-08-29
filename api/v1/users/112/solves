@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Embedded 2 Network", "id": 76}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-23T23:15:10.796697+00:00", "id": 1878, "user": {"name": "BlueBandit21", "id": 112}, "type": "correct"}], "meta": {"count": 1}}

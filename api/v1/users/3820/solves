@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "0rd3rs", "id": 5}, "challenge_id": 13, "challenge": {"name": "Intruder", "value": 100, "id": 13, "category": "Web"}, "date": "2024-08-24T16:12:27.003037+00:00", "id": 3295, "user": {"name": "nquangit", "id": 3820}, "type": "correct"}], "meta": {"count": 1}}

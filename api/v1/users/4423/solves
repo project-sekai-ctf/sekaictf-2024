@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "FluxFingers", "id": 1400}, "challenge_id": 21, "challenge": {"name": "Process Flipper", "value": 458, "id": 21, "category": "Pwn"}, "date": "2024-08-25T15:32:12.933072+00:00", "id": 4520, "user": {"name": "SeTcbPrivilege", "id": 4423}, "type": "correct"}], "meta": {"count": 1}}

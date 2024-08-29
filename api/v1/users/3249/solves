@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "the muppeters", "id": 1661}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T17:01:11.852432+00:00", "id": 953, "user": {"name": "beaker", "id": 3249}, "type": "correct"}], "meta": {"count": 1}}

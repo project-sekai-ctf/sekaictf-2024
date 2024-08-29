@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "AKASEC", "id": 1618}, "challenge_id": 15, "challenge": {"name": "nolibc", "value": 112, "id": 15, "category": "Pwn"}, "date": "2024-08-24T09:54:11.960181+00:00", "id": 2811, "user": {"name": "obmium", "id": 3594}, "type": "correct"}], "meta": {"count": 1}}

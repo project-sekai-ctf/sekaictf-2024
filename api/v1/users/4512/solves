@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "TU Delft CTF Team", "id": 1433}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T21:54:45.163314+00:00", "id": 3539, "user": {"name": "dvos", "id": 4512}, "type": "correct"}], "meta": {"count": 1}}

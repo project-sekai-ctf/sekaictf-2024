@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Medium Brain", "id": 1009}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:07:20.890672+00:00", "id": 105, "user": {"name": "Darrenheihei", "id": 1792}, "type": "correct"}], "meta": {"count": 1}}

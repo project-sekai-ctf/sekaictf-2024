@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "TeamSerbia", "id": 553}, "challenge_id": 23, "challenge": {"name": "Tagless", "value": 100, "id": 23, "category": "Web"}, "date": "2024-08-23T19:49:45.912294+00:00", "id": 1583, "user": {"name": "Pimpest", "id": 1107}, "type": "correct"}], "meta": {"count": 1}}

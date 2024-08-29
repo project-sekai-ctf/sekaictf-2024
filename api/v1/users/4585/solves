@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "pHackboat", "id": 170}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-24T13:47:09.642320+00:00", "id": 3066, "user": {"name": "fr0mars", "id": 4585}, "type": "correct"}], "meta": {"count": 1}}

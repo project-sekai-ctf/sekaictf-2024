@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "CVE-Noumiso-toketoke", "id": 932}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-24T23:09:29.804795+00:00", "id": 3569, "user": {"name": "Cernunnos", "id": 1663}, "type": "correct"}], "meta": {"count": 1}}

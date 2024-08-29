@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "SPAIN-ECSC-2024", "id": 774}, "challenge_id": 12, "challenge": {"name": "Life Simulator 2", "value": 308, "id": 12, "category": "Pwn"}, "date": "2024-08-25T12:05:51.542840+00:00", "id": 4256, "user": {"name": "l00p3r", "id": 4323}, "type": "correct"}], "meta": {"count": 1}}

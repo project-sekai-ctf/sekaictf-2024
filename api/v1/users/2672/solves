@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "SPAIN-ECSC-2024", "id": 774}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-23T18:55:21.022248+00:00", "id": 1437, "user": {"name": "m2rc", "id": 2672}, "type": "correct"}], "meta": {"count": 1}}

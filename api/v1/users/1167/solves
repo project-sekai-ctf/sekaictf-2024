@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "CyberConnoisseurs", "id": 685}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:05:06.450895+00:00", "id": 44, "user": {"name": "QuackingCat", "id": 1167}, "type": "correct"}], "meta": {"count": 1}}

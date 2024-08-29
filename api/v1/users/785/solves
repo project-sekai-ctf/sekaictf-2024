@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Turing Nessus", "id": 480}, "challenge_id": 36, "challenge": {"name": "\u25bb Survey", "value": 39, "id": 36, "category": "Misc"}, "date": "2024-08-25T07:44:57.827839+00:00", "id": 3974, "user": {"name": "BlackAngel", "id": 785}, "type": "correct"}], "meta": {"count": 1}}

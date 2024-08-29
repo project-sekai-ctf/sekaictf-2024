@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "AKASEC", "id": 1618}, "challenge_id": 5, "challenge": {"name": "X64 Extension", "value": 100, "id": 5, "category": "Reverse"}, "date": "2024-08-24T13:22:04.428831+00:00", "id": 3031, "user": {"name": "nyly", "id": 3163}, "type": "correct"}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "ARESx", "id": 1151}, "challenge_id": 23, "challenge": {"name": "Tagless", "value": 100, "id": 23, "category": "Web"}, "date": "2024-08-23T18:48:27.156183+00:00", "id": 1409, "user": {"name": "avokado", "id": 3293}, "type": "correct"}], "meta": {"count": 1}}

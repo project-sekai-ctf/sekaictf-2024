@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Perperikon", "id": 995}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T09:15:30.106841+00:00", "id": 2749, "user": {"name": "TheDumb1", "id": 3749}, "type": "correct"}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "c-bass", "id": 1202}, "challenge_id": 27, "challenge": {"name": "Miku vs. Machine", "value": 100, "id": 27, "category": "PPC"}, "date": "2024-08-25T06:31:01.426462+00:00", "id": 3866, "user": {"name": "alphaGengar", "id": 4951}, "type": "correct"}], "meta": {"count": 1}}

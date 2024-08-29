@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "syntax terrors", "id": 1510}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:16:35.917841+00:00", "id": 394, "user": {"name": "sushi_bake", "id": 2639}, "type": "correct"}], "meta": {"count": 1}}

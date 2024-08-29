@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "FluxFingers", "id": 1400}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-23T19:31:36.089373+00:00", "id": 1536, "user": {"name": "sylv", "id": 2876}, "type": "correct"}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "my little trojan", "id": 1226}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T17:49:31.095634+00:00", "id": 1218, "user": {"name": "dzhamaica", "id": 2206}, "type": "correct"}], "meta": {"count": 1}}

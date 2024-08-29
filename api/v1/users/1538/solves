@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "> r0/dev/null", "id": 872}, "challenge_id": 13, "challenge": {"name": "Intruder", "value": 100, "id": 13, "category": "Web"}, "date": "2024-08-24T14:33:26.184759+00:00", "id": 3175, "user": {"name": "budor", "id": 1538}, "type": "correct"}], "meta": {"count": 1}}

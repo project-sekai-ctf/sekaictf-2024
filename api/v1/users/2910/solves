@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "NCA@Nepal", "id": 803}, "challenge_id": 4, "challenge": {"name": "Crack Me", "value": 100, "id": 4, "category": "Reverse"}, "date": "2024-08-24T08:23:06.881462+00:00", "id": 2677, "user": {"name": "di0", "id": 2910}, "type": "correct"}], "meta": {"count": 1}}

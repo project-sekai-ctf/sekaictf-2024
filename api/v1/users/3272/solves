@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "TeamSerbia", "id": 553}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T23:34:17.830418+00:00", "id": 3576, "user": {"name": "Pseudoleon", "id": 3272}, "type": "correct"}], "meta": {"count": 1}}

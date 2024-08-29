@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "KAIST GoN", "id": 328}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T09:15:11.559442+00:00", "id": 2748, "user": {"name": "sunsh9876543210", "id": 521}, "type": "correct"}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "hackafon", "id": 204}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:23:33.196264+00:00", "id": 567, "user": {"name": "L", "id": 331}, "type": "correct"}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Avenger", "id": 1052}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-24T00:04:17.450993+00:00", "id": 1937, "user": {"name": "nusa", "id": 1885}, "type": "correct"}], "meta": {"count": 1}}

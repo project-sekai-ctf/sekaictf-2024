@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "KAIST GoN", "id": 328}, "challenge_id": 13, "challenge": {"name": "Intruder", "value": 100, "id": 13, "category": "Web"}, "date": "2024-08-24T17:55:29.025480+00:00", "id": 3389, "user": {"name": "IREVES", "id": 524}, "type": "correct"}], "meta": {"count": 1}}

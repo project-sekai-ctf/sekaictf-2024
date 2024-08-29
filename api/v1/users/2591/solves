@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Elite.sa", "id": 1410}, "challenge_id": 15, "challenge": {"name": "nolibc", "value": 112, "id": 15, "category": "Pwn"}, "date": "2024-08-24T00:33:00.782652+00:00", "id": 1974, "user": {"name": "0x3z", "id": 2591}, "type": "correct"}], "meta": {"count": 1}}

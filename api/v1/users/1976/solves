@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Pixel Perfect", "id": 1083}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:16:27.643468+00:00", "id": 387, "user": {"name": "random", "id": 1976}, "type": "correct"}], "meta": {"count": 1}}

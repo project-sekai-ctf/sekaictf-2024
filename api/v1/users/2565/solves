@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "FluxFingers", "id": 1400}, "challenge_id": 13, "challenge": {"name": "Intruder", "value": 100, "id": 13, "category": "Web"}, "date": "2024-08-24T15:32:32.042679+00:00", "id": 3245, "user": {"name": "msanft", "id": 2565}, "type": "correct"}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "bankruptcy", "id": 1501}, "challenge_id": 15, "challenge": {"name": "nolibc", "value": 112, "id": 15, "category": "Pwn"}, "date": "2024-08-24T00:00:28.529621+00:00", "id": 1932, "user": {"name": "koskason", "id": 2768}, "type": "correct"}], "meta": {"count": 1}}

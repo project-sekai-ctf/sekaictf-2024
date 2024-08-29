@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Archiv3", "id": 102}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-24T10:03:42.931088+00:00", "id": 2824, "user": {"name": "phuocchubeo", "id": 4353}, "type": "correct"}], "meta": {"count": 1}}

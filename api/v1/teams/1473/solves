@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "CSIRT Gentera", "id": 1473}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:23:03.979036+00:00", "id": 552, "user": {"name": "MikeFS", "id": 2739}, "type": "correct"}], "meta": {"count": 1}}

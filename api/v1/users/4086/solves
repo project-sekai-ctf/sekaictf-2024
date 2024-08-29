@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "NTU MasterChefs", "id": 1320}, "challenge_id": 27, "challenge": {"name": "Miku vs. Machine", "value": 100, "id": 27, "category": "PPC"}, "date": "2024-08-24T06:15:07.821342+00:00", "id": 2470, "user": {"name": "solarianunity", "id": 4086}, "type": "correct"}], "meta": {"count": 1}}

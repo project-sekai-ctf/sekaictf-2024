@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "TU Delft CTF Team", "id": 1433}, "challenge_id": 27, "challenge": {"name": "Miku vs. Machine", "value": 100, "id": 27, "category": "PPC"}, "date": "2024-08-24T15:33:22.243910+00:00", "id": 3246, "user": {"name": "Emway", "id": 1432}, "type": "correct"}], "meta": {"count": 1}}

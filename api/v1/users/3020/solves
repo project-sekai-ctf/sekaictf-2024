@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "IITBreachers", "id": 1566}, "challenge_id": 8, "challenge": {"name": "Some Trick", "value": 100, "id": 8, "category": "Cryptography"}, "date": "2024-08-23T19:42:55.168564+00:00", "id": 1563, "user": {"name": "DarthVishnu", "id": 3020}, "type": "correct"}], "meta": {"count": 1}}

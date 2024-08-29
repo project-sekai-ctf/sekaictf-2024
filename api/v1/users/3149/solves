@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "AKASEC", "id": 1618}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:28:20.788890+00:00", "id": 628, "user": {"name": "d33znu75", "id": 3149}, "type": "correct"}], "meta": {"count": 1}}

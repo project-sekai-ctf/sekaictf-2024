@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "GRIS", "id": 1845}, "challenge_id": 27, "challenge": {"name": "Miku vs. Machine", "value": 100, "id": 27, "category": "PPC"}, "date": "2024-08-24T15:48:56.348097+00:00", "id": 3263, "user": {"name": "pedrofm", "id": 4579}, "type": "correct"}], "meta": {"count": 1}}

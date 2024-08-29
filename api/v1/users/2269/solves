@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "Hyperion", "id": 1409}, "challenge_id": 1, "challenge": {"name": "\u25b6 Sanity Check", "value": 39, "id": 1, "category": "Misc"}, "date": "2024-08-23T16:09:29.602893+00:00", "id": 159, "user": {"name": "St4rr", "id": 2269}, "type": "correct"}], "meta": {"count": 1}}

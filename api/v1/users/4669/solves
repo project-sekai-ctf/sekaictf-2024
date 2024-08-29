@@ -1,0 +1,1 @@
+{"success": true, "data": [{"team": {"name": "El3ctronic", "id": 149}, "challenge_id": 15, "challenge": {"name": "nolibc", "value": 112, "id": 15, "category": "Pwn"}, "date": "2024-08-25T04:18:47.934061+00:00", "id": 3721, "user": {"name": "Chick", "id": 4669}, "type": "correct"}], "meta": {"count": 1}}
